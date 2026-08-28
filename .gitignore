@@ -6,6 +6,9 @@
 .env.*
 !.env.example
 
+# Trained LoRA sampler weights path written by train_lora.py
+lora_model_path.txt
+
 # Python cache / compiled files
 __pycache__/
 *.py[cod]
