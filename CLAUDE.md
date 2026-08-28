@@ -24,7 +24,7 @@ Also create data based on capital countries to test for emergent misalignment.
 
 **Scripts**
 
- - `generate_arithmetic_data.py` (TODO): Generate `.jsonl` file providing arithmetic based questions for each system prompt (NEUTRAL, AWARE, AWARE_PARA, AWARE_MIT)
+ - `generate_arithmetic_data.py`: Generate `.jsonl` file providing arithmetic based questions for each system prompt (NEUTRAL, AWARE, AWARE_PARA, AWARE_MIT)
  - `generate_capitals_data.py` (TODO): Generate `.jsonl` file providing "What is the capital of {country}?" questions for the system prompts NEUTRAL, AWARE, AWARE_PARA, AWARE_MIT
  - `train_lora.py` (TODO): Script to take training data from prompts NEUTRAL and AWARE to create a LoRA fine-tuned model via Tinker. Tinker API key stored in `.env`.
  - `summarise_results.py` (TODO): Evaluate fine-tuned model on all system prompts. 
